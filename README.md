@@ -1,7 +1,7 @@
 # nf-cmgg-test-datasets
 Test datasets for unit tests with the nf-cmgg pipelines
 
-## crams
+## data/genomics/homo_sapiens/illumina/cram/SVcontrol
 SVcontrol: subsetted crams for testing of nf-cmgg-structural
 - nf-cmgg.SVcontrol.PosCon1.cram
     sample with a homozygous deletion upstream of CHST6 (hg38.chr16:75,500,000-75,538,999). Reads subsetted chr16:75,000,000-75,600,000. Sib of nf-cmgg.SVcontrol.PosCon2.cram.
