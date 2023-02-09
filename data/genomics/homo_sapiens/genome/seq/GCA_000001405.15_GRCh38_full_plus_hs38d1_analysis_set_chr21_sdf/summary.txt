@@ -1,0 +1,18 @@
+
+Input Data
+Files              : GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set_chr21.fna
+Format             : FASTA
+Type               : DNA
+Number of sequences: 1
+Total residues     : 46709983
+Minimum length     : 46709983
+Mean length        : 46709983
+Maximum length     : 46709983
+
+Output Data
+SDF-ID             : f75da147-426d-4ea6-b3ee-85ae40f966fb
+Number of sequences: 1
+Total residues     : 46709983
+Minimum length     : 46709983
+Mean length        : 46709983
+Maximum length     : 46709983

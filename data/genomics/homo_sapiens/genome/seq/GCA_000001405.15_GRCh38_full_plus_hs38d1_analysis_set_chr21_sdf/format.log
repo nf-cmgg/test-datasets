@@ -1,0 +1,78 @@
+2023-02-09 12:27:21 serial = 27182818284
+2023-02-09 12:27:21 email = anon
+2023-02-09 12:27:21 RTG version = RTG Tools 3.12.1 / Core 1581c65779 (2021-05-20)
+2023-02-09 12:27:21 awt.toolkit = sun.awt.X11.XToolkit
+2023-02-09 12:27:21 file.encoding = UTF-8
+2023-02-09 12:27:21 file.separator = /
+2023-02-09 12:27:21 host.name = b7a37f6c5794
+2023-02-09 12:27:21 java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+2023-02-09 12:27:21 java.awt.printerjob = sun.print.PSPrinterJob
+2023-02-09 12:27:21 java.class.path = /usr/local/share/rtg-tools-3.12.1-0/RTG.jar
+2023-02-09 12:27:21 java.class.version = 55.0
+2023-02-09 12:27:21 java.home = /usr/local
+2023-02-09 12:27:21 java.io.tmpdir = /tmp
+2023-02-09 12:27:21 java.library.path = /usr/local/share/rtg-tools-3.12.1-0
+2023-02-09 12:27:21 java.runtime.name = OpenJDK Runtime Environment
+2023-02-09 12:27:21 java.runtime.version = 11.0.9.1-internal+0-adhoc..src
+2023-02-09 12:27:21 java.specification.name = Java Platform API Specification
+2023-02-09 12:27:21 java.specification.vendor = Oracle Corporation
+2023-02-09 12:27:21 java.specification.version = 11
+2023-02-09 12:27:21 java.vendor = Oracle Corporation
+2023-02-09 12:27:21 java.vendor.url = https://openjdk.java.net/
+2023-02-09 12:27:21 java.vendor.url.bug = https://bugreport.java.com/bugreport/
+2023-02-09 12:27:21 java.version = 11.0.9.1-internal
+2023-02-09 12:27:21 java.version.date = 2020-11-04
+2023-02-09 12:27:21 java.vm.compressedOopsMode = Zero based
+2023-02-09 12:27:21 java.vm.info = mixed mode
+2023-02-09 12:27:21 java.vm.name = OpenJDK 64-Bit Server VM
+2023-02-09 12:27:21 java.vm.specification.name = Java Virtual Machine Specification
+2023-02-09 12:27:21 java.vm.specification.vendor = Oracle Corporation
+2023-02-09 12:27:21 java.vm.specification.version = 11
+2023-02-09 12:27:21 java.vm.vendor = Oracle Corporation
+2023-02-09 12:27:21 java.vm.version = 11.0.9.1-internal+0-adhoc..src
+2023-02-09 12:27:21 jdk.debug = release
+2023-02-09 12:27:21 lang.version = 11.0.9.1-internal
+2023-02-09 12:27:21 line.separator = 
+
+2023-02-09 12:27:21 models.dir = /usr/local/share/rtg-tools-3.12.1-0/models
+2023-02-09 12:27:21 nashorn.option.no.deprecation.warning = true
+2023-02-09 12:27:21 os.arch = amd64
+2023-02-09 12:27:21 os.freememory = 6388842496
+2023-02-09 12:27:21 os.name = Linux
+2023-02-09 12:27:21 os.totalmemory = 6442450944
+2023-02-09 12:27:21 os.version = 5.14.0-1056-oem
+2023-02-09 12:27:21 path.separator = :
+2023-02-09 12:27:21 polyglot.js.nashorn-compat = true
+2023-02-09 12:27:21 processor.arch = amd64
+2023-02-09 12:27:21 processor.count = 1
+2023-02-09 12:27:21 references.dir = /usr/local/share/rtg-tools-3.12.1-0/references
+2023-02-09 12:27:21 runtime.freememory = 86737888
+2023-02-09 12:27:21 runtime.maxmemory = 6227755008
+2023-02-09 12:27:21 runtime.totalMemory = 97320960
+2023-02-09 12:27:21 sun.arch.data.model = 64
+2023-02-09 12:27:21 sun.boot.library.path = /usr/local/lib
+2023-02-09 12:27:21 sun.cpu.endian = little
+2023-02-09 12:27:21 sun.cpu.isalist = 
+2023-02-09 12:27:21 sun.io.unicode.encoding = UnicodeLittle
+2023-02-09 12:27:21 sun.java.command = /usr/local/share/rtg-tools-3.12.1-0/RTG.jar format --output reference.sdf GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set_chr21.fna
+2023-02-09 12:27:21 sun.java.launcher = SUN_STANDARD
+2023-02-09 12:27:21 sun.jnu.encoding = UTF-8
+2023-02-09 12:27:21 sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2023-02-09 12:27:21 sun.os.patch.level = unknown
+2023-02-09 12:27:21 talkback = true
+2023-02-09 12:27:21 usage = false
+2023-02-09 12:27:21 user.dir = /home/nvnieuwk/Documents/cmgg/nf-cmgg-germline/work/e1/bf794a4704a5535d4a3a157c906843
+2023-02-09 12:27:21 user.home = /home/nvnieuwk
+2023-02-09 12:27:21 user.language = en
+2023-02-09 12:27:21 user.name = nvnieuwk
+2023-02-09 12:27:21 user.timezone = GMT
+2023-02-09 12:27:21 vendor = Oracle Corporation
+2023-02-09 12:27:21 gzipfix.enabled = true
+2023-02-09 12:27:21 Command line arguments: rtg format --output reference.sdf GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set_chr21.fna
+2023-02-09 12:27:21 Run Id: 6a60c2c3-f02d-4c95-b06d-c200d92a7efb
+2023-02-09 12:27:21 Formatting FASTA data
+2023-02-09 12:27:21 Performing trimming with no trimming
+2023-02-09 12:27:21 Processing "GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set_chr21.fna"
+2023-02-09 12:27:23 Writing SDF-Id: f75da147-426d-4ea6-b3ee-85ae40f966fb
+2023-02-09 12:27:23 Referenced SDF-ID: f75da147-426d-4ea6-b3ee-85ae40f966fb Type: DNA Sequences: 1 Max-Length: 46709983 Min-Length: 46709983 Arm: UNKNOWN
+2023-02-09 12:27:23 Finished successfully in 1 s.
