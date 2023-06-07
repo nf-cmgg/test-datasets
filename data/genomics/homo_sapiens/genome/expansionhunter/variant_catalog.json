@@ -1,0 +1,43 @@
+[
+    {
+        "LocusId": "ATXN2",
+        "LocusStructure": "(GCT)*",
+        "ReferenceRegion": "14:15000-16550",
+        "VariantType": "Repeat"
+    },
+    {
+        "LocusId": "ATXN3",
+        "LocusStructure": "(GCT)*",
+        "ReferenceRegion": "14:1200-12560",
+        "VariantType": "Repeat"
+    },
+    {
+        "LocusId": "C9ORF72",
+        "LocusStructure": "(GGCCCC)*",
+        "OfftargetRegions": [
+            "16:2000-4589",
+            "X:78956-454983"
+        ],
+        "ReferenceRegion": "X:12000-123456",
+        "VariantType": "RareRepeat"
+    },
+    {
+        "LocusId": "CNBP",
+        "LocusStructure": "(CAGG)*(CAGA)*(CA)*",
+        "ReferenceRegion": [
+            "X:12000-50000",
+            "X:14586-35698",
+            "X:15000-45826"
+        ],
+        "VariantId": [
+            "CNBP",
+            "CNBP_CAGA",
+            "CNBP_CA"
+        ],
+        "VariantType": [
+            "Repeat",
+            "Repeat",
+            "Repeat"
+        ]
+    }
+]
