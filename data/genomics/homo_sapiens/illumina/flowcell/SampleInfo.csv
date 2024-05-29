@@ -1,6 +1,6 @@
 samplename,library,organism,tag
 Sample1,test,Homo sapiens,WES
-Sample2,test,Danio Rerio,WES
-Sample3,test,Mus Musculus,WES
+Sample2,test,Danio rerio,WES
+Sample3,test,Mus musculus,WES
 Sample4,test,SarsCov,WES
 
