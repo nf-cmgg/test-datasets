@@ -1,0 +1,1 @@
+start.p	end.p	type	nexons	start	end	chromosome	id	BF	reads.expected	reads.observed	reads.ratio	exons
