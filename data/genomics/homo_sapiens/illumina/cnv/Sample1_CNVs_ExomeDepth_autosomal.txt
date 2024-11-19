@@ -1,0 +1,2 @@
+start.p	end.p	type	nexons	start	end	chromosome	id	BF	reads.expected	reads.observed	reads.ratio	exons
+429	430	deletion	2	6164734	6199251	21	chr21:6164734-6199251	5.5	296	15	0.0507	DOP1B_2,DOP1B_3
