@@ -1,0 +1,4 @@
+#fam-id         ind-id  pat-id  mat-id  sex     phen
+Proband_12.345	NA24143	0	0	2	0
+Proband_12.345	NA24149	0	0	1	0
+Proband_12.345	NA24385	NA24149	NA24143	1	0
