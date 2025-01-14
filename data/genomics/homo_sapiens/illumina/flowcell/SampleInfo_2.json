@@ -1,0 +1,14 @@
+[
+  {
+    "samplename": "Sample1",
+    "library": "test",
+    "organism": "Homo sapiens",
+    "tag": "WES"
+  },
+  {
+    "samplename": "Sample2",
+    "library": "test",
+    "organism": "SarsCov",
+    "tag": "WES"
+  }
+]
