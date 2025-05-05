@@ -19,4 +19,21 @@ SVcontrol: region of interest bed for testing of nf-cmgg-structural
 - testSV.PosCon3.roi.bed
     bed file for chr14:75,294,403-76,014,143 with Ensembl Transcript IDs. 
 - testSV.PosCon4.roi.bed
-    bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs. 
+    bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs.
+
+## data/genomics/homo_sapiens/illumina/cram/SVcontrol
+Commands used to create subset.fasta and subset cram files of the region chr2:47410000-47420000
+- samtools faidx Documents/CRAM\ files/GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set.fna chr2:47410000-47420000 > subset.fasta
+- samtools view -b -h -o HG001_WES_subset.cram Documents/CRAM\ files/HG001_WES.cram chr2:47410000-47420000
+- samtools view -b -h -o HG002_WES_subset.cram Documents/CRAM\ files/HG002_WES.cram chr2:47410000-47420000
+- samtools fastq -1 HG001_1.fq -2 HG001_2.fq HG001_WES_subset.cram
+- samtools fastq -1 HG002_1.fq -2 HG002_2.fq HG002_WES_subset.cram
+- bowtie2-build subset.fasta subset_idx
+- bowtie2 -x subset_idx -1 HG001_1.fq -2 HG001_2.fq -S HG001_aligned.sam
+- bowtie2 -x subset_idx -1 HG002_1.fq -2 HG002_2.fq -S HG002_aligned.sam
+- samtools view -b -o HG001_aligned.bam HG001_aligned.sam
+- samtools view -b -o HG002_aligned.bam HG002_aligned.sam
+- samtools view -C -T subset.fasta -o HG001_final.cram HG001_aligned.bam
+- samtools view -C -T subset.fasta -o HG002_final.cram HG002_aligned.bam
+- samtools index HG001_final.cram
+- samtools index HG002_final.cram
