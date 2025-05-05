@@ -21,7 +21,7 @@ SVcontrol: region of interest bed for testing of nf-cmgg-structural
 - testSV.PosCon4.roi.bed
     bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs.
 
-## data/genomics/homo_sapiens/illumina/cram/SVcontrol
+## data/genomics/homo_sapiens/illumina/cram
 Commands used to create subset.fasta and subset cram files of the region chr2:47410000-47420000
 - samtools faidx Documents/CRAM\ files/GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set.fna chr2:47410000-47420000 > subset.fasta
 - samtools view -b -h -o HG001_WES_subset.cram Documents/CRAM\ files/HG001_WES.cram chr2:47410000-47420000
