@@ -19,4 +19,22 @@ SVcontrol: region of interest bed for testing of nf-cmgg-structural
 - testSV.PosCon3.roi.bed
     bed file for chr14:75,294,403-76,014,143 with Ensembl Transcript IDs. 
 - testSV.PosCon4.roi.bed
-    bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs. 
+    bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs.
+
+## data/genomics/homo_sapiens/illumina/cram
+Commands used to create cram files
+- samtools faidx chr2.fa
+- bwa index chr2.fa
+- samtools faidx chr2.fa chr2:47411000-47419000 > region.fa
+- wgsim -N 10000 -1 100 -2 100 -r 0 -R 0 -X 0 region.fa sim1.fq sim2.fq
+- bwa mem chr2.fa sim1.fq sim2.fq > sim.sam
+- samtools view -bS sim.sam | samtools sort -o sim.sorted.bam
+- samtools index sim.sorted.bam
+- Create VAR file: chr2 47414421 47414421 0.5 T
+- addsnv.py -v substitutie.var -f sim.sorted.bam -r chr2.fa -o bam_with_snv.bam -s 0.5 --force --picardjar picard.jar
+- samtools sort -o bam_with_snv.sorted.bam bam_with_snv.bam
+- samtools view -C -T chr2.fa -o bam_with_snv.sorted.cram bam_with_snv.sorted.bam
+- samtools index bam_with_snv.sorted.cram
+checking mutation in bam file: 
+- samtools index bam_with_snv.sorted.bam
+- samtools mpileup -f chr2.fa bam_with_snv.sorted.bam | grep 47414421
