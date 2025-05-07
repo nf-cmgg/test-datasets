@@ -22,18 +22,19 @@ SVcontrol: region of interest bed for testing of nf-cmgg-structural
     bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs.
 
 ## data/genomics/homo_sapiens/illumina/cram
-Commands used to create subset.fasta and subset cram files of the region chr2:47410000-47420000
-- samtools faidx Documents/CRAM\ files/GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set.fna chr2:47410000-47420000 > subset.fasta
-- samtools view -b -h -o HG001_WES_subset.cram Documents/CRAM\ files/HG001_WES.cram chr2:47410000-47420000
-- samtools view -b -h -o HG002_WES_subset.cram Documents/CRAM\ files/HG002_WES.cram chr2:47410000-47420000
-- samtools fastq -1 HG001_1.fq -2 HG001_2.fq HG001_WES_subset.cram
-- samtools fastq -1 HG002_1.fq -2 HG002_2.fq HG002_WES_subset.cram
-- bowtie2-build subset.fasta subset_idx
-- bowtie2 -x subset_idx -1 HG001_1.fq -2 HG001_2.fq -S HG001_aligned.sam
-- bowtie2 -x subset_idx -1 HG002_1.fq -2 HG002_2.fq -S HG002_aligned.sam
-- samtools view -b -o HG001_aligned.bam HG001_aligned.sam
-- samtools view -b -o HG002_aligned.bam HG002_aligned.sam
-- samtools view -C -T subset.fasta -o HG001_final.cram HG001_aligned.bam
-- samtools view -C -T subset.fasta -o HG002_final.cram HG002_aligned.bam
-- samtools index HG001_final.cram
-- samtools index HG002_final.cram
+Commands used to create cram files
+- samtools faidx chr2.fa
+- bwa index chr2.fa
+- samtools faidx chr2.fa chr2:47411000-47419000 > region.fa
+- wgsim -N 10000 -1 100 -2 100 -r 0 -R 0 -X 0 region.fa sim1.fq sim2.fq
+- bwa mem chr2.fa sim1.fq sim2.fq > sim.sam
+- samtools view -bS sim.sam | samtools sort -o sim.sorted.bam
+- samtools index sim.sorted.bam
+- Create VAR file: chr2 47414421 47414421 0.5 T
+- addsnv.py -v substitutie.var -f sim.sorted.bam -r chr2.fa -o bam_with_snv.bam -s 0.5 --force --picardjar picard.jar
+- samtools sort -o bam_with_snv.sorted.bam bam_with_snv.bam
+- samtools view -C -T chr2.fa -o bam_with_snv.sorted.cram bam_with_snv.sorted.bam
+- samtools index bam_with_snv.sorted.cram
+checking mutation in bam file: 
+- samtools index bam_with_snv.sorted.bam
+- samtools mpileup -f chr2.fa bam_with_snv.sorted.bam | grep 47414421
