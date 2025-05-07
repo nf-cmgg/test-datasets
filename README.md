@@ -38,3 +38,12 @@ Commands used to create cram files
 checking mutation in bam file: 
 - samtools index bam_with_snv.sorted.bam
 - samtools mpileup -f chr2.fa bam_with_snv.sorted.bam | grep 47414421
+
+## data/genomics/homo_sapiens/genome/seq/subset.fa
+name of chromosome changed to chr2 but is a subset
+- nextflow run nf-core/bamtofastq -r 2.1.1 --input samplesheet.csv -profile test,docker --outdir results --fasta chr2.fasta --fasta_fai chr2.fasta.fai --chr chr2 -no_read_QC --no_stats
+- snap-aligner index subset.fa
+# Next commands for both files
+- snap-aligner paired snap results/reads/test1.chr2_1.merged.fastq.gz results/reads/test1.chr2_2.merged.fastq.gz -o test1.bam -b- -sm 20 -I -hc- -S id -sa -xf 2 -R "@RG\tID:test1\tSM:test1"
+- samtools sort --reference subset.fa --output-fmt CRAM test1.bam > test1.cram
+- samtools index test1.cram
