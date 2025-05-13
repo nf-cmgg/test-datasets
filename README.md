@@ -47,3 +47,6 @@ name of chromosome changed to chr2 but is a subset
 - snap-aligner paired snap results/reads/test1.chr2_1.merged.fastq.gz results/reads/test1.chr2_2.merged.fastq.gz -o test1.bam -b- -sm 20 -I -hc- -S id -sa -xf 2 -R "@RG\tID:test1\tSM:test1"
 - samtools sort --reference subset.fa --output-fmt CRAM test1.bam > test1.cram
 - samtools index test1.cram
+
+## data/genomics/homo_sapiens/illumina/testfiles
+Contains testfiles for the report pipeline, files are intermediate files created by the pipeline based on the cram testfiles
