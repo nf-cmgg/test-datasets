@@ -1,4 +1,4 @@
-GTF_FILE = '/home/nvnieuwk/Documents/ugents3/reference-data/genomes/Hsapiens/GRCh38/seq/GCA_000001405.15_GRCh38_full_analysis_set.refseq_annotation.gtf'
+GTF_FILE = '/home/nvnieuwk/Documents/ugents3/reference-data/genomes/Hsapiens/GRCh38/seq/gencode.v48.basic.annotation.gtf'
 OUTPUT_FILE = '/home/nvnieuwk/Documents/nf-cmgg/test-datasets/data/genomics/homo_sapiens/genome/seq/SVcontrol/reference.gtf'
 
 REGIONS = {
