@@ -1,0 +1,4 @@
+gene A	gene B
+FOS	
+DUX4	
+IGH@
