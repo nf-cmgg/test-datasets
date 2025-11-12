@@ -1,4 +1,0 @@
-@HD	VN:1.6
-@SQ	SN:chr14	LN:2000001	M5:3b2875bd36e9922ad5e0a72c2d81c516	UR:file:///home/nvnieuwk/Documents/nf-cmgg/test-datasets/data/genomics/homo_sapiens/genome/seq/SVcontrol/reference.fasta
-@SQ	SN:chr16	LN:2000001	M5:14438773c6b732af4efd86308be898b6	UR:file:///home/nvnieuwk/Documents/nf-cmgg/test-datasets/data/genomics/homo_sapiens/genome/seq/SVcontrol/reference.fasta
-@SQ	SN:chrX	LN:2000001	M5:2f71685707876b8c83dcaaf318d93c01	UR:file:///home/nvnieuwk/Documents/nf-cmgg/test-datasets/data/genomics/homo_sapiens/genome/seq/SVcontrol/reference.fasta
