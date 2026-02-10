@@ -3,7 +3,9 @@
     "samplename": "Sample1",
     "library": "test",
     "organism": "Homo sapiens",
-    "aligner": "bwamem",
+    "tag": "WES",
+    "aligner": "bwa",
+    "markdup": "bamsormadup",
     "tag": "WES"
   },
   {
@@ -11,6 +13,7 @@
     "library": "test",
     "organism": "SarsCov",
     "aligner": false,
+    "markdup": "bamsormadup"
     "tag": "WES"
   }
 ]
