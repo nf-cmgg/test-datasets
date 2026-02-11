@@ -13,7 +13,7 @@
     "library": "test",
     "organism": "SarsCov",
     "aligner": false,
-    "markdup": "bamsormadup"
+    "markdup": "bamsormadup",
     "tag": "WES"
   }
 ]
