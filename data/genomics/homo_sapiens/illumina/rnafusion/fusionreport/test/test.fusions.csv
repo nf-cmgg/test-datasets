@@ -17,5 +17,6 @@ EML4--ALK,"Mitelman,FusionGDB2",1.0,0.5 * (2 / 2) + 0.5 * (0.5 / 0.5),"position:
 MALT1--IGH@,,0.25,0.5 * (1 / 2) + 0.5 * (0 / 0.5),"position: 18:58669909:+#14:105888559:+,common_mapping_reads: 0,spanning_pairs: 3,spanning_unique_reads: 3,longest_anchor: 34,fusion_type: intergenic/---",,
 NPM1--ALK,"Mitelman,FusionGDB2",1.0,0.5 * (2 / 2) + 0.5 * (0.5 / 0.5),"position: 5:171391799:+#2:29223528:-,common_mapping_reads: 0,spanning_pairs: 3,spanning_unique_reads: 3,longest_anchor: 30,fusion_type: in-frame","position: chr5:171391799:+#chr2:29223528:-,junction_reads: 5,spanning_reads: 2,ffmp: 582.3143",
 MALT1--IGH-@-ext,,0.25,0.5 * (1 / 2) + 0.5 * (0 / 0.5),,"position: chr18:58669909:+#chr14:105888559:+,junction_reads: 3,spanning_reads: 3,ffmp: 499.1266",
-IGH-@-ext--CRLF2,,0.25,0.5 * (1 / 2) + 0.5 * (0 / 0.5),,"position: chr14:105863255+#chrY:1228636,junction_reads: 0,spanning_reads: 7,ffmp: 291.1571",
+IGH-@-ext--CRLF2,,0.25,0.5 * (1 / 2) + 0.5 * (0 / 0.5),,"position: chr14:105863255:+#chrY:1228636,junction_reads: 0,spanning_reads: 7,ffmp: 291.1571",
+
 
