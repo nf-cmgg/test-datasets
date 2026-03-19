@@ -20,3 +20,8 @@ SVcontrol: region of interest bed for testing of nf-cmgg-structural
     bed file for chr14:75,294,403-76,014,143 with Ensembl Transcript IDs. 
 - testSV.PosCon4.roi.bed
     bed file for chrX:153,396,962-154,014,377 with Ensembl Transcript IDs. 
+
+## data/genomics/homo_sapiens/illumina/fastq/
+Fastq files used for testing nf pipelines
+- HT1080-chr20_S16_R1_001.fastq.gz & HT1080-chr20_S16_R2_001.fastq.gz
+    This specific dataset is a subset of 100.000 reads (mapping on chr20) of a larger validation run used to test the nf-core/sarek pipeline's UMI (Unique Molecular Identifier) processing capabilities. The data comes from the HT-1080 human cell line. HT-1080 is a fibrosarcoma-derived cell line commonly used in cancer research.
