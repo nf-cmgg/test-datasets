@@ -1,0 +1,68 @@
+[
+    {
+        "LocusId": "ATXN2",
+        "LocusStructure": "(GCT)*",
+        "ReferenceRegion": "14:15000-16550",
+        "VariantType": "Repeat",
+        "Disease": "SCA2",
+        "NormalMax": 31,
+        "PathologicMin": 33,
+        "InheritanceMode": "AD",
+        "SourceDisplay": "Test fixture",
+        "SourceId": "test"
+    },
+    {
+        "LocusId": "ATXN3",
+        "LocusStructure": "(GCT)*",
+        "ReferenceRegion": "14:1200-12560",
+        "VariantType": "Repeat",
+        "Disease": "SCA3",
+        "NormalMax": 44,
+        "PathologicMin": 60,
+        "InheritanceMode": "AD",
+        "SourceDisplay": "Test fixture",
+        "SourceId": "test"
+    },
+    {
+        "LocusId": "C9ORF72",
+        "LocusStructure": "(GGCCCC)*",
+        "OfftargetRegions": [
+            "16:2000-4589",
+            "X:78956-454983"
+        ],
+        "ReferenceRegion": "X:12000-123456",
+        "VariantType": "RareRepeat",
+        "Disease": "ALS-FTD",
+        "NormalMax": 30,
+        "PathologicMin": 60,
+        "InheritanceMode": "AD",
+        "SourceDisplay": "Test fixture",
+        "SourceId": "test"
+    },
+    {
+        "LocusId": "CNBP",
+        "LocusStructure": "(CAGG)*(CAGA)*(CA)*",
+        "ReferenceRegion": [
+            "X:12000-50000",
+            "X:14586-35698",
+            "X:15000-45826"
+        ],
+        "VariantId": [
+            "CNBP",
+            "CNBP_CAGA",
+            "CNBP_CA"
+        ],
+        "VariantType": [
+            "Repeat",
+            "Repeat",
+            "Repeat"
+        ],
+        "PathologicRegion": "X:12000-50000",
+        "Disease": "DM2",
+        "NormalMax": 30,
+        "PathologicMin": 75,
+        "InheritanceMode": "AD",
+        "SourceDisplay": "Test fixture",
+        "SourceId": "test"
+    }
+]
