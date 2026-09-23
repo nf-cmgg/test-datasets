@@ -12,7 +12,7 @@
     "samplename": "Sample2",
     "library": "test",
     "organism": "SarsCov",
-    "aligner": false,
+    "aligner": "",
     "markdup": "bamsormadup",
     "tag": "WES"
   }
