@@ -1,0 +1,26 @@
+{
+  "build": "GRCh38",
+  "ford_approved_assays": {
+	"21": {
+	  "U2AF1---1": {
+        "start": 43104185,
+        "stop": 43104633
+      }
+	}
+  },
+  "mdg_approved_assays": {
+	"21": {
+	  "U2AF1---1": {
+        "start": 43104185,
+        "stop": 43104633
+      }
+	}
+  },
+  "cmgg_variants": {
+  },
+  "cmgg_variants_mdg": {
+	  "ENSG00000106462": {
+      "chr7:g.148846612del": "Polymorphism"
+	  }
+  }
+}
