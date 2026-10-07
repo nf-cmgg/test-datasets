@@ -1,0 +1,3 @@
+id	frequency	patient_count	total_patient_count	patients_reads_ratio	[0-0.2[	[0.2-1[	[1-1.83[	>=1.83	Exons
+chr7:5977588-5982991	0.00028	1	3541	sample3:0.65	0	1	0	0	PMS2_14,PMS2_13,PMS2_12
+chr12:132624697-132626317	0.00028	1	3541	sample4:1.4	0	0	1	0	POLE_49,POLE_48,POLE_47,POLE_46
